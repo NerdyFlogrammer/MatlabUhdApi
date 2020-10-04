@@ -1,0 +1,36 @@
+#ifndef _MBOARD_METHODS_HPP_
+#define _MBOARD_METHODS_HPP_
+
+#include "../set_master_clock_rate.hpp"
+#include "../get_master_clock_rate.hpp"
+#include "../get_master_clock_rate_range.hpp"
+#include "../get_pp_string.hpp"
+#include "../get_mboard_name.hpp"
+#include "../get_time_now.hpp"
+#include "../get_time_last_pps.hpp"
+#include "../set_time_now.hpp"
+#include "../set_time_next_pps.hpp"
+#include "../set_time_unknown_pps.hpp"
+#include "../get_time_synchronized.hpp"
+#include "../set_command_time.hpp"
+#include "../clear_command_time.hpp"
+#include "../issue_stream_cmd.hpp"
+#include "../set_time_source.hpp"
+#include "../get_time_source.hpp"
+#include "../get_time_sources.hpp"
+#include "../set_clock_source.hpp"
+#include "../get_clock_source.hpp"
+#include "../get_clock_sources.hpp"
+#include "../set_sync_source.hpp"
+#include "../get_sync_source.hpp"
+#include "../get_sync_sources.hpp"
+#include "../set_clock_source_out.hpp"
+#include "../set_time_source_out.hpp"
+#include "../get_num_mboards.hpp"
+#include "../get_mboard_sensor.hpp"
+#include "../get_mboard_sensor_names.hpp"
+#include "../set_user_register.hpp"
+#include "../create_user_settings_iface.hpp"
+
+#endif // !_MBOARD_METHODS_HPP_
+
